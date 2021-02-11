@@ -6,119 +6,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="./css/global.css">
     <title>SWC Projects</title>
 </head>
+<!-- <div class="col-md-8 col-sm-3 col-xs-12"></div> -->
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">SWC Projects Allocation</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+    <div class="bg">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SWC Projects Allocation</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+        <!-- <div class="col-mb-6"></div> -->
+        <form action="" class="" style="margin: auto; width: 50%;">
+            <div class="mb-12">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-12">
+                <label for="discorduname" class="form-label">Discord Username</label>
+                <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+                <div id="disunamehelp" class="form-text">Make sure your nickname on swc server is the same</div>
+            </div>
+            <div class="mb-12">
+                <label for="ProjsDone" class="form-label">Projects Done</label>
+                <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+            </div>
+            <div>
+                <label for="Skills" class="form-label">Skills</label>
+                <select name="Sem" id="" class="form-control">
+                    <option value="nil">-</option>
+                    <option value="1">html</option>
+                    <option value="2">css</option>
+                    <option value="3">js</option>
+                    <option value="4">backend</option>
+                    <option value="5">flask</option>
+                    <option value="6">django</option>
+                    <option value="7">ml</option>
+                    <option value="8">gamed</option>
+                </select>
+                <div id="skillshelp" class="form-text">Not mandatory to have any</div>
 
-    <form action="" style="margin: auto; width: 50%;">
-        <div class="mb-3">
-            <label for="Name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
-            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-        </div>
-        <div class="mb-3">
-            <label for="discorduname" class="form-label">Discord Username</label>
-            <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
-            <div id="disunamehelp" class="form-text">Make sure your nickname on swc server is the same</div>
-        </div>
-        <div class="mb-3">
-            <label for="ProjsDone" class="form-label">Projects Done</label>
-            <!-- <input type="textarea" class="form-control" id="Branch"> -->
-            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
-        </div>
-        <div>
-            <label for="Skills" class="form-label">Skills</label>
-            <select name="Sem" id="" class="form-control">
-                <option value="nil">-</option>
-                <option value="1">html</option>
-                <option value="2">css</option>
-                <option value="3">js</option>
-                <option value="4">backend</option>
-                <option value="5">flask</option>
-                <option value="6">django</option>
-                <option value="7">ml</option>
-                <option value="8">gamed</option>
-            </select>
-            <div id="skillshelp" class="form-text">Not mandatory to have any</div>
-
-        </div>
-        <div>
-            <label for="Branch" class="form-label">Branch</label>
-            <select name="Sem" id="" class="form-control">
-                <option value="1">CS</option>
-                <option value="2">MnC</option>
-                <option value="3">EEE</option>
-                <option value="4">ECE</option>
-                <option value="5">ME</option>
-                <option value="6">CL</option>
-                <option value="7">CE</option>
-                <option value="8">CST</option>
-            </select>
-        </div>
-        <div>
-            <label for="Semester" class="form-label">Semester</label>
-            <select name="Sem" id="" class="form-control">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-            </select>
-        </div>
-        <br>   
-        <div>
-            <label for="Preferencess" class="form-label">Enter Your Preferences of each project</label>
-            <div id="disunamehelp" class="form-text">Make Sure you are entering different numbers for each project. 1 means highest priority</div>
+            </div>
+            <div>
+                <label for="Branch" class="form-label">Branch</label>
+                <select name="Sem" id="" class="form-control">
+                    <option value="1">CS</option>
+                    <option value="2">MnC</option>
+                    <option value="3">EEE</option>
+                    <option value="4">ECE</option>
+                    <option value="5">ME</option>
+                    <option value="6">CL</option>
+                    <option value="7">CE</option>
+                    <option value="8">CST</option>
+                </select>
+            </div>
+            <div>
+                <label for="Semester" class="form-label">Semester</label>
+                <select name="Sem" id="" class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+            </div>
             <br>
             <div>
-                <label for="project1" class="form-label">project1</label>
+                <label for="Preferencess" class="form-label">Enter Your Preferences of each project</label>
+                <div id="disunamehelp" class="form-text">Make Sure you are entering different numbers for each project.
+                    1 means highest priority</div>
+                <br>
+                <div>
+                    <label for="project1" class="form-label">project1</label>
+                    <select name="Sem" id="" class="col-2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="project2" class="form-label">project2</label>
+                    <select name="Sem" id="" class="col-2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label for="project3" class="form-label">project3</label>
                 <select name="Sem" id="" class="col-2">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -131,7 +162,7 @@
                 </select>
             </div>
             <div>
-                <label for="project2" class="form-label">project2</label>
+                <label for="project4" class="form-label">project4</label>
                 <select name="Sem" id="" class="col-2">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -143,38 +174,13 @@
                     <option value="8">8</option>
                 </select>
             </div>
-        </div>
-        <div>
-            <label for="project3" class="form-label">project3</label>
-            <select name="Sem" id="" class="col-2">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-            </select>
-        </div>
-        <div>
-            <label for="project4" class="form-label">project4</label>
-            <select name="Sem" id="" class="col-2">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-            </select>
-        </div>
-    </div>
-        <br>
-        <button type="submit" class="btn btn-primary">Submit</button>
 
-    </form>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
